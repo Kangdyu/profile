@@ -26,10 +26,10 @@
 
   <body>
     <div class="container">
-      <section id="information" class="d-flex">
-        <img class="img-thumbnail rounded-circle" src="./photo.png" alt="cat" />
+      <section id="information" class="d-flex flex-sm-row align-items-sm-stretch flex-column align-items-center">
+        <img class="img-thumbnail rounded-circle me-sm-5 mb-sm-0 mb-3" src="./photo.png" alt="cat" />
         <div class="d-flex flex-column justify-content-between">
-          <div>
+          <div class="text-sm-start text-center">
             <h1 class="information-name">Daeho Kang</h1>
             <h2 class="information-nickname text-secondary">Kangdyu</h2>
           </div>
@@ -67,11 +67,11 @@
         <h1>Education</h1>
         <table class="table table-bordered">
           <tr>
-            <th class="text-end table-year">2018.03 - now</td>
-            <td>SungKyunKwan University</td>
+            <th class="text-end col-4">2018.03 - now</td>
+            <td><strong>SungKyunKwan University</strong><br />Computer Science and Engineering</td>
           </tr>
           <tr>
-            <th class="text-end table-year">2015.03 - 2018.02</td>
+            <th class="text-end col-4">2015.03 - 2018.02</td>
             <td>Sunrin Internet Highschool</td>
           </tr>
         </table>
@@ -81,8 +81,8 @@
         <h1>Work Experience</h1>
         <table class="table table-bordered">
           <tr>
-            <th class="text-end table-year">2021.02 - 2021.07</td>
-            <td>Viva Republica (Toss), Web Frontend Developer</td>
+            <th class="text-end col-4">2021.02 - 2021.07</td>
+            <td><strong>Viva Republica (Toss)</strong><br />Web Frontend Developer</td>
           </tr>
         </table>
       </section>
@@ -101,7 +101,7 @@
           <div class="col-8">
             <div class="tab-content" id="nav-tabContent">
               <div class="tab-pane fade show active" id="list-support" role="tabpanel" aria-labelledby="list-support-list">
-                <ul>
+                <ul class="works-list">
                   <li><a href="https://support.toss.im" target="_blank">https://support.toss.im</a></li>
                   <li><strong>Stacks:</strong> Next.js, Typescript, Emotion, SWR</li>
                   <li><strong>Work:</strong> Overall frontend works</li>
@@ -109,7 +109,7 @@
                 </ul>
               </div>
               <div class="tab-pane fade" id="list-slash" role="tabpanel" aria-labelledby="list-slash-list">
-                <ul>
+                <ul class="works-list">
                   <li><a href="https://toss.im/slash-21" target="_blank">https://toss.im/slash-21</a></li>
                   <li><strong>Stacks:</strong> Next.js, Typescript, Emotion, SWR</li>
                   <li><strong>Work:</strong> Overall frontend works</li>
@@ -117,7 +117,7 @@
                 </ul>
               </div>
               <div class="tab-pane fade" id="list-toss" role="tabpanel" aria-labelledby="list-toss-list">
-                <ul>
+                <ul class="works-list">
                   <li><a href="https://toss.im" target="_blank">https://toss.im</a></li>
                   <li><strong>Stacks:</strong> Next.js, Typescript, Emotion, SWR</li>
                   <li><strong>Work:</strong> Overall frontend works</li>
@@ -125,7 +125,7 @@
                 </ul>
               </div>
               <div class="tab-pane fade" id="list-blog" role="tabpanel" aria-labelledby="list-blog-list">
-                <ul>
+                <ul class="works-list">
                   <li><a href="https://blog.toss.im" target="_blank">https://blog.toss.im</a></li>
                   <li><strong>Stacks:</strong> Next.js, Typescript, Emotion, Relay</li>
                   <li><strong>Work:</strong> Overall frontend works (except detail interactions), connect headless CMS with GraphQL</li>
