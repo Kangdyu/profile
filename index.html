@@ -17,13 +17,44 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
     <title>Kangdyu's Profile</title>
   </head>
+
   <body>
-    <div>
-      <img src="./photo.png" alt="cat" />
-      <h1>Hello World!</h1>
+    <div class="container">
+      <section id="information" class="d-flex">
+        <img src="./photo.png" alt="cat" class="img-thumbnail rounded-circle" />
+        <div class="d-flex flex-column justify-content-between">
+          <div>
+            <h1 class="information-name">Daeho Kang</h1>
+            <h2 class="information-nickname text-secondary">Kangdyu</h2>
+          </div>
+          <ul class="information-list">
+            <li>
+              <i class="bi bi-pencil-fill"></i>
+              Web Frontend
+            </li>
+            <li>
+              <i class="bi bi-briefcase-fill"></i>
+              SungKyunKwan University
+            </li>
+            <li>
+              <i class="bi bi-envelope-fill"></i>
+              <a href="mailto:kangdyu99@gmail.com">kangdyu99@gmail.com</a>
+            </li>
+            <li>
+              <i class="bi bi-github"></i>
+              <a href="https://github.com/Kangdyu" target="_blank">Github</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

@@ -1,3 +1,32 @@
-h1 {
-  color: dodgerblue;
+.container {
+  max-width: 768px;
+  padding-top: 60px;
+}
+
+.img-thumbnail {
+  width: 300px;
+  height: 300px;
+  margin-right: 32px;
+}
+
+.information-name {
+  font-size: 48px;
+  margin-bottom: 4px;
+}
+
+.information-nickname {
+  font-size: 24px;
+}
+
+.information-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.information-list li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+i.bi {
+  margin-right: 8px;
 }
